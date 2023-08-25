@@ -19,6 +19,7 @@ body{
     position: relative;
     background: var(--bg);
     min-height: 100vh;
+    transition: all 0.5s;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -28,6 +29,10 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+input{
+    font-family: 'Asap Condensed' !important;
+    font-weight: 600 !important;
 }
 
 
@@ -42,7 +47,6 @@ input[type=number] {
     font-size: 1.5rem;
     color: var(--clr);
 }
-
 .logo{
     font-family: 'Fjalla One';
     font-size: 2.5rem;
@@ -54,16 +58,22 @@ input[type=number] {
     user-select: none;
     color: var(--clr);
 }
-.setup-form{
+.setup-form, .actions{
     width: 70%;
     margin: 30px auto;
     font-family: 'Asap Condensed';
     color: var(--clr);
 }
+
+/* Setup Page */
 .setup-form h3{
     font-size: 2rem;
-    margin-bottom: 25px;
     color: var(--clr);
+    margin-bottom: 6px;
+}
+.setup-form p{
+    font-size: 1rem;
+    margin-bottom: 15px;
 }
 
 .row{
@@ -74,7 +84,7 @@ input[type=number] {
 }
 .form-grp{
     width: 40%;
-    margin: 20px 0;
+    margin: 15px 0;
 }
 .form-grp label{
     font-size: 1.3rem;
@@ -111,4 +121,50 @@ button{
     font-size: 1.3rem;
     font-weight: 700;
     font-family: 'Asap Condensed';
+}
+
+
+
+/* Index Page */
+.single-action{
+    margin: 25px 0;
+    border: 1px dashed var(--clr);
+    padding: 10px;
+}
+.single-action-menu{
+    transition: height 0.5s;
+}
+.single-action-menu.collapsed {
+    height: 0;
+    overflow: hidden;
+}
+.single-action h3{
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    user-select: none;
+}
+
+.single-action-menu{
+    margin-top: 10px;
+}
+.single-action-menu input{
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid var(--clr);
+    color: var(--clr);
+    margin: 8px 0;
+    font-size: 1.1rem;
+}
+.single-action-menu button{
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+.single-action-menu a{
+    color: var(--clr);
+    font-size: 1rem;
+    margin: 8px 0;
+    text-decoration: none;
 }

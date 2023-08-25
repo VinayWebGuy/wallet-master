@@ -21,6 +21,7 @@
 
         <div class="setup-form">
             <h3>Setup your account first</h3>
+            <p>Get 0.5% interest of your total balance daily. *</p>
             <form action="">
             <div class="row">
                 <div class="form-grp">
@@ -42,6 +43,20 @@
                     <div class="input">
                         <input type="number" name="mobile" autocomplete="off">
                         <i class="fa fa-phone input-icon"></i>
+                    </div>
+                </div>
+                <div class="form-grp">
+                    <label for="password">Password</label>
+                    <div class="input">
+                        <input type="password" name="password" autocomplete="off">
+                        <i class="fa fa-key input-icon"></i>
+                    </div>
+                </div>
+                <div class="form-grp">
+                    <label for="referral">Any Referral code</label>
+                    <div class="input">
+                        <input type="text" name="referral" autocomplete="off">
+                        <i class="fa fa-user-plus input-icon"></i>
                     </div>
                 </div>
                 <div class="form-grp">
