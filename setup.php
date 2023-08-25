@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
 </head>
 
 <body>
@@ -62,56 +63,7 @@
                 <div class="form-grp">
                     <label for="mobile">Currency</label>
                     <div class="input">
-                        <select name="" id="">
-                            <option value="Argentine Peso (ARS)">Argentine Peso (ARS)</option>
-                            <option value="Australian Dollar (AUD)">Australian Dollar (AUD)</option>
-                            <option value="Bahraini Dinar (BHD)">Bahraini Dinar (BHD)</option>
-                            <option value="Bangladeshi Taka (BDT)">Bangladeshi Taka (BDT)</option>
-                            <option value="Brazilian Real (BRL)">Brazilian Real (BRL)</option>
-                            <option value="Canadian Dollar (CAD)">Canadian Dollar (CAD)</option>
-                            <option value="Chilean Peso (CLP)">Chilean Peso (CLP)</option>
-                            <option value="Chinese Yuan Renminbi (CNY)">Chinese Yuan Renminbi (CNY)</option>
-                            <option value="Colombian Peso (COP)">Colombian Peso (COP)</option>
-                            <option value="Czech Koruna (CZK)">Czech Koruna (CZK)</option>
-                            <option value="Egyptian Pound (EGP)">Egyptian Pound (EGP)</option>
-                            <option value="Euro (EUR)">Euro (EUR)</option>
-                            <option value="Hong Kong Dollar (HKD)">Hong Kong Dollar (HKD)</option>
-                            <option selected value="Indian Rupee (INR)">Indian Rupee (INR)</option>
-                            <option value="Indonesian Rupiah (IDR)">Indonesian Rupiah (IDR)</option>
-                            <option value="Iraqi Dinar (IQD)">Iraqi Dinar (IQD)</option>
-                            <option value="Israeli New Shekel (ILS)">Israeli New Shekel (ILS)</option>
-                            <option value="Japanese Yen (JPY)">Japanese Yen (JPY)</option>
-                            <option value="Jordanian Dinar (JOD)">Jordanian Dinar (JOD)</option>
-                            <option value="Kazakhstani Tenge (KZT)">Kazakhstani Tenge (KZT)</option>
-                            <option value="Kuwaiti Dinar (KWD)">Kuwaiti Dinar (KWD)</option>
-                            <option value="Malaysian Ringgit (MYR)">Malaysian Ringgit (MYR)</option>
-                            <option value="Mexican Peso (MXN)">Mexican Peso (MXN)</option>
-                            <option value="Moroccan Dirham (MAD)">Moroccan Dirham (MAD)</option>
-                            <option value="New Zealand Dollar (NZD)">New Zealand Dollar (NZD)</option>
-                            <option value="Nigerian Naira (NGN)">Nigerian Naira (NGN)</option>
-                            <option value="Norwegian Krone (NOK)">Norwegian Krone (NOK)</option>
-                            <option value="Omani Rial (OMR)">Omani Rial (OMR)</option>
-                            <option value="Pakistani Rupee (PKR)">Pakistani Rupee (PKR)</option>
-                            <option value="Peruvian Sol (PEN)">Peruvian Sol (PEN)</option>
-                            <option value="Philippine Peso (PHP)">Philippine Peso (PHP)</option>
-                            <option value="Polish Złoty (PLN)">Polish Złoty (PLN)</option>
-                            <option value="Qatari Riyal (QAR)">Qatari Riyal (QAR)</option>
-                            <option value="Romanian Leu (RON)">Romanian Leu (RON)</option>
-                            <option value="Russian Ruble (RUB)">Russian Ruble (RUB)</option>
-                            <option value="Saudi Riyal (SAR)">Saudi Riyal (SAR)</option>
-                            <option value="Singapore Dollar (SGD)">Singapore Dollar (SGD)</option>
-                            <option value="South African Rand (ZAR)">South African Rand (ZAR)</option>
-                            <option value="South Korean Won (KRW)">South Korean Won (KRW)</option>
-                            <option value="Sri Lankan Rupee (LKR)">Sri Lankan Rupee (LKR)</option>
-                            <option value="Swedish Krona (SEK)">Swedish Krona (SEK)</option>
-                            <option value="Swiss Franc (CHF)">Swiss Franc (CHF)</option>
-                            <option value="Thai Baht (THB)">Thai Baht (THB)</option>
-                            <option value="Turkish Lira (TRY)">Turkish Lira (TRY)</option>
-                            <option value="Ukrainian Hryvnia (UAH)">Ukrainian Hryvnia (UAH)</option>
-                            <option value="United Arab Emirates Dirham (AED)">United Arab Emirates Dirham (AED)</option>
-                            <option value="United States Dollar (USD)">United States Dollar (USD)</option>
-                            <option value="Vietnamese Dong (VND)">Vietnamese Dong (VND)</option>
-                        </select>
+                    <input type="text" name="currency" autocomplete="off" value="INR" readonly>
                         <i class="fa fa-wallet input-icon"></i>
                     </div>
                 </div>

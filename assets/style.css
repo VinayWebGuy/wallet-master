@@ -36,6 +36,7 @@ input{
 }
 
 
+
 .theme-menu{
     position: fixed;
     z-index: 2;
@@ -83,7 +84,7 @@ input{
     flex-wrap: wrap;
 }
 .form-grp{
-    width: 40%;
+    width: 45%;
     margin: 15px 0;
 }
 .form-grp label{
@@ -168,3 +169,9 @@ button{
     margin: 8px 0;
     text-decoration: none;
 }
+
+
+.form-grp option { /* Background color */
+    background-color: var(--bg2);
+    color: var(--clr) !important; /* Text color */
+  }
